@@ -42,17 +42,18 @@ require_once(DOKU_TPLINC . 'tpl_functions.php');
   <a href="#" name="dokuwiki__top">&nbsp;</a>
 
   <div id="content">
-    <?php $toc = tpl_toc(true)?>
-    <?php if($toc) { ?>
-    <?php print $toc ?>
-      <div class="clearer"></div>
-     <?php } ?>
-
+  
     <?php if($conf['breadcrumbs']){?>
     <div class="breadcrumbs">
       <?php tpl_youarehere() ?>
     </div>
     <?php }?>
+    
+    <?php $toc = tpl_toc(true)?>
+    <?php if($toc) { ?>
+    <?php print $toc ?>
+      <div class="clearer"></div>
+     <?php } ?>
 
     <div class="page">
       <!-- wikipage start -->
