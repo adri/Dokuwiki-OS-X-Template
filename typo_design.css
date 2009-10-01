@@ -67,8 +67,14 @@ div.dokuwiki div.navigation div.li {
   display: block;
 }
 
+div.dokuwiki div.navigation div.li a {
+	background: url(images/i-folder.gif) no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+}
+
 div.dokuwiki div.navigation div.li a:hover {
-  color: __existing__ !important;
+
 }
 
 div.dokuwiki div.navigation div.li a.active {
@@ -78,7 +84,7 @@ div.dokuwiki div.navigation div.li a.active {
 div.dokuwiki div.navigation h3 {
 	font-size: 110%;
 	margin-left: 1em;
-	margin-bottom: 0;
+	margin-bottom: 0.5em;
 }
 
 div.dokuwiki div.navigation h3 a {
@@ -104,6 +110,7 @@ div.dokuwiki div#content {
   border-left: 1px solid __border__;
   background: __background__;
   width: 80%;
+  font-size: 120%;
   position: absolute;
   right: 0;
   top: 0;
