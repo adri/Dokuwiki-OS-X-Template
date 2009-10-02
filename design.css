@@ -352,6 +352,10 @@ div.dokuwiki div.breadcrumbs a {
   color: __text_neu__;
 }
 
+div.dokuwiki div.breadcrumbs a:last-child {
+	background: none;
+}
+
 div.dokuwiki div.breadcrumbs span.bchead {
   display: none;
 }
