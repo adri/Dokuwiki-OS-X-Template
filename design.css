@@ -332,10 +332,28 @@ div.dokuwiki div.preview {
 }
 
 div.dokuwiki div.breadcrumbs {
+  background: url("images/i-nav_background.gif") top left repeat-x;
   background-color: __background_neu__;
   color: __text_neu__;
-  font-size: 80%;
+  font-size: 90%;
+  height: 31px;
+  border-top: 1px solid __border__;
+  border-bottom: 1px solid __border__;
   padding: 0 0 0 4px;
+  text-indent: -999px;
+}
+
+div.dokuwiki div.breadcrumbs a {
+  text-indent: 0px;
+  background: url("images/i-nav_separator.gif") top right no-repeat;
+  display: block;
+  float: left;
+  padding: 7px 10px 10px 5px;
+  color: __text_neu__;
+}
+
+div.dokuwiki div.breadcrumbs span.bchead {
+  display: none;
 }
 
 div.dokuwiki span.user {

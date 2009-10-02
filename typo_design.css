@@ -37,24 +37,23 @@ div.dokuwiki div.navigation {
   width: 100%;
 }
 
-div.dokuwiki div.navigation ul {
+div.dokuwiki div#sidebar ul {
   margin: 0;
   width: 100%;
 }
 
-div.dokuwiki div.navigation li {
+div.dokuwiki div#sidebar li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-div.dokuwiki div.navigation div.li {
+div.dokuwiki div#sidebar div.li {
   margin: 0;
   padding: 0;
 }
 
-div.dokuwiki div.sidebar_box div.li a, 
-div.dokuwiki div.navigation div.li a {
+div.dokuwiki div#sidebar div.li a {
   color: __text__ !important;
   font-size: 110%;
   line-height: 120%;
@@ -67,7 +66,11 @@ div.dokuwiki div.navigation div.li {
   display: block;
 }
 
-div.dokuwiki div.navigation div.li a {
+div.dokuwiki div.navigation img.medialeft {
+	margin-right: 0.5em;
+}
+
+div.dokuwiki div#sidebar div.li a.action {
 	background: url(images/i-folder.gif) no-repeat;
 	background-position: 0px 1px;
 	padding-left: 20px;
@@ -81,13 +84,12 @@ div.dokuwiki div.navigation div.li a.active {
   color: __existing__;
 }
 
-div.dokuwiki div.navigation h3 {
+div.dokuwiki div#sidebar h3 {
 	font-size: 110%;
-	margin-left: 1em;
-	margin-bottom: 0.5em;
+	margin: 0.5em 0 0.5em 1em;
 }
 
-div.dokuwiki div.navigation h3 a {
+div.dokuwiki div#sidebar h3 a {
 	color: #748292 !important; 
 	text-shadow: 0 1px 0 #ebeff2;
 	cursor: default;
@@ -141,7 +143,7 @@ div.dokuwiki div#sidebar a:hover {
 }
 
 div.dokuwiki div.sidebar_box {
-  padding: 2em 1em 2em 1.5em;
+  padding: 0em 1em 2em 1.5em;
 }
 
 div.dokuwiki div.sidebar_box ul {

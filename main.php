@@ -78,7 +78,10 @@ require_once(DOKU_TPLINC . 'tpl_functions.php');
     </div>
 
     <div class="actions">
+      <h3><a name="actions">Actions</a></h3>
+      <div class="level2">
       <?php tpl_actions()?>
+      </div>
     </div>
 
     <div id="pagemeta">
