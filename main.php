@@ -45,7 +45,9 @@ require_once(DOKU_TPLINC . 'tpl_functions.php');
   
     <?php if($conf['breadcrumbs']){?>
     <div class="breadcrumbs">
+      <div class="breadcumbsInner">
       <?php tpl_youarehere() ?>
+      </div>
     </div>
     <?php }?>
     

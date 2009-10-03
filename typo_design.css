@@ -71,13 +71,9 @@ div.dokuwiki div.navigation img.medialeft {
 }
 
 div.dokuwiki div#sidebar div.li a.action {
-	background: url(images/i-folder.gif) no-repeat;
+	background: url(images/i-page.gif) no-repeat;
 	background-position: 0px 1px;
 	padding-left: 20px;
-}
-
-div.dokuwiki div.navigation div.li a:hover {
-
 }
 
 div.dokuwiki div.navigation div.li a.active {
@@ -111,12 +107,13 @@ div.dokuwiki div#bar__bottom {
 div.dokuwiki div#content {
   border-left: 1px solid __border__;
   background: __background__;
-  width: 80%;
+  width: auto;
+  min-height: 1600px;
   font-size: 120%;
   position: absolute;
-  right: 0;
+  left: 200px;
+  right: 0px;
   top: 0;
-  min-height: 1600px;
 }
 
 div.dokuwiki div#firef {
@@ -129,8 +126,8 @@ div.dokuwiki div#firef {
 }
 
 div.dokuwiki div#sidebar {
-	left: auto;
-	right: 0px;
+	left: 0px;
+	position: fixed;
 }
 
 div.dokuwiki div#sidebar .doc {
@@ -351,6 +348,7 @@ div.dokuwiki div.level2 {
   margin-left: 10px;
 }
 
+
 div.dokuwiki h3 {font-size: 130%; margin-left: 20px; border-bottom: none; font-weight: bold;}
 div.dokuwiki h4 {font-size: 120%; margin-left: 40px; border-bottom: none; font-weight: bold;}
 div.dokuwiki h5 {font-size: 100%; margin-left: 60px; border-bottom: none; font-weight: bold;}
@@ -358,6 +356,11 @@ div.dokuwiki h5 {font-size: 100%; margin-left: 60px; border-bottom: none; font-w
 div.dokuwiki div.level3 {margin-left: 23px;}
 div.dokuwiki div.level4 {margin-left: 43px;}
 div.dokuwiki div.level5 {margin-left: 63px;}
+
+div.dokuwiki h1 a {
+	color: #1f364b !important;
+    text-shadow: white 0px 1px 0px;
+}
 
 /* Additional Plugin CSS */
 div.dokuwiki h2 a#discussion__section {

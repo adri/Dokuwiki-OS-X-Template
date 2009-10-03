@@ -332,20 +332,29 @@ div.dokuwiki div.preview {
 }
 
 div.dokuwiki div.breadcrumbs {
-  background: url("images/i-nav_background.gif") top left repeat-x;
-  background-color: __background_neu__;
   color: __text_neu__;
   font-size: 90%;
   height: 31px;
-  border-top: 1px solid __border__;
-  border-bottom: 1px solid __border__;
   padding: 0 0 0 4px;
   text-indent: -999px;
+}
+
+div.dokuwiki div.breadcumbsInner {
+  background: url("images/i-nav_background.gif") top left repeat-x;
+  background-color: __background_neu__;
+  border-top: 1px solid __border__;
+  border-bottom: 1px solid __border__;
+  position: fixed;
+  height: 31px;
+  right: 0px;
+  left: 201px;
+  width: auto;
 }
 
 div.dokuwiki div.breadcrumbs a {
   text-indent: 0px;
   background: url("images/i-nav_separator.gif") top right no-repeat;
+  text-shadow: white 0px 1px 0px;
   display: block;
   float: left;
   padding: 7px 10px 10px 5px;
