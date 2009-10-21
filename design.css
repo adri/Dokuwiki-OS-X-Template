@@ -319,7 +319,7 @@ div.dokuwiki a.wikilink1 {
 div.dokuwiki a.wikilink2 {
   color: __missing__ !important;
   text-decoration: none !important;
-  border-bottom: dashed 1px __missing__ !important;
+  /*border-bottom: dashed 1px __missing__ !important;*/
 }
 
 /* ------------- Page elements ----------------- */

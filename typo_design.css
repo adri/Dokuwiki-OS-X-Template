@@ -2,7 +2,7 @@
  * CSS for DokuWiki template OSX
  *
  * @author Michael Klier <chi@chimeric.de> 
- @author Adrian Philipp <adrian.philipp@gmail.com> 
+ * @author Adrian Philipp <adrian.philipp@gmail.com> 
  */
 body {
   margin: 0;
@@ -189,7 +189,6 @@ div.dokuwiki div#bar__bottom {
 div.dokuwiki div.page {
   padding: 2em 2.5em 2em 2.5em;
   margin: 0;
-  border-right: 1px dotted __border__;
 }
 
 div.dokuwiki h1 a,
@@ -292,7 +291,6 @@ div.dokuwiki span.toc_close {
 
 div.dokuwiki pre.code,
 div.dokuwiki pre.file {
-  font-size: 90% !important;
   background: __background_alt__;
 }
 
@@ -347,7 +345,6 @@ div.dokuwiki div.level1 {
 div.dokuwiki div.level2 {
   margin-left: 10px;
 }
-
 
 div.dokuwiki h3 {font-size: 130%; margin-left: 20px; border-bottom: none; font-weight: bold;}
 div.dokuwiki h4 {font-size: 120%; margin-left: 40px; border-bottom: none; font-weight: bold;}
